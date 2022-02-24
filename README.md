@@ -5,5 +5,10 @@
 
 ##
 
-- ### Variables, Types and Prints (list 01)
-
+- ### Variables, Types and Prints   (list 01)
+- ### Input/Output and Expressions  (list 02)
+- ### Selection Commands            (list 03)
+- ### Repeating Loops               (list 04)
+- ### Functions and Vectors         (list 05)
+- ### Strings                       (list 06)
+- ### Arrays                        (list 07)
