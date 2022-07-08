@@ -1,6 +1,6 @@
 # C_programs
 
-✨ **C exercises I do at university to learn the language** ✨
+✨ **C exercises I do at university to learn programming logic and the language** ✨
 - 📄 In each folder there is a Readme explaining the content of the files in those folders
 
 ##
