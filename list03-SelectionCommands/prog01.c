@@ -1,54 +1,47 @@
 #include <stdio.h>
 
 int main() {
-    printf("Informe um numero de 0 a 9 para exibi-lo por extenso: ");
-    int numero;
-    scanf(" %d", &numero);
+    printf("Enter a number from 0 to 9 to display it in full: ");
+    int number;
+    scanf(" %d", &number);
 
-    if(numero == 0) {
-        printf("O numero digitado foi: Zero");
-    }
-
-    if(numero == 1) {
-        printf("O numero digitado foi: Um");
-    }
+    switch (number)
+    {
+    case 0:
+        printf("The number typed was: Zero");
+        break;
+    case 1:
+        printf("The number typed was: One");
+        break;
+    case 2:
+        printf("The number typed was: Two");
+        break;
+    case 3:
+        printf("The number typed was: Three");
+        break;
+    case 4:
+        printf("The number typed was: Four");
+        break;
+    case 5:
+        printf("The number typed was: Five");
+        break;
+    case 6:
+        printf("The number typed was: Six");
+        break;
+    case 7:
+        printf("The number typed was: Seven");
+        break;
+    case 8:
+        printf("The number typed was: Eigth");
+        break;
+    case 9:
+        printf("The number typed was: Nine");
+        break;
     
-    if(numero == 2) {
-        printf("O numero digitado foi: Dois");
+    default:
+        printf("Type other value."); 
+        break;
     }
-
-    if(numero == 3) {
-        printf("O numero digitado foi: Tres");
-    }
-
-    if(numero == 4) {
-        printf("O numero digitado foi: Quatro");
-    }
-
-    if(numero == 5) {
-        printf("O numero digitado foi: Cinco");
-    }
-
-    if(numero == 6) {
-        printf("O numero digitado foi: Seis");
-    }
-
-    if(numero == 7) {
-        printf("O numero digitado foi: Sete");
-    }
-
-    if(numero == 8) {
-        printf("O numero digitado foi: Oito");
-    }
-
-    if(numero == 9) {
-        printf("O numero digitado foi: Nove");
-    }
-    
-    // Mensagem de Erro
-    if(numero < 0 || numero > 9) {
-        printf("DIGITE OUTRO VALOR");
-        }
 
     return 0;
 }

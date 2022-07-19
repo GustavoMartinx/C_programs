@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    printf("EH PAR OU IMPAR??\n\n");
+    printf("IS PAIR OR ODD?\n\n");
 
     int x;
-    printf("Informe um inteiro: ");
+    printf("Enter a integer: ");
     scanf(" %d", &x);
 
-    // Se o resto da divisão for zero, então eh par, se não, ímpar
-    int resto = x % 2;
-    if(resto == 0) {
-        printf(" %d eh Par!", x);
+    // If the remainder of division by two is zero, then is pair, else, odd
+    // Se o resto da divisão por dois for zero, então eh par, se não, ímpar
+    int rest = x % 2;
+    if(rest == 0) {
+        printf(" %d is pair!", x);
     } else {
-        printf(" %d eh Impar!", x);
+        printf(" %d is odd!", x);
     }
 
     return 0;
