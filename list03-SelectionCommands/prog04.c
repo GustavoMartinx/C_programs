@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int ano;
-    printf("Informe um ano: ");
-    scanf(" %d", &ano);
+    int year;
+    printf("Enter an year: ");
+    scanf(" %d", &year);
 
-    int resto = ano % 4;
-    int por400 = ano % 400;
-    if(resto == 0 && resto != 100 || por400 == 0) {
-        printf("\nO ano %d eh bissexto.", ano);
+    int rest = year % 4;
+    int by400 = year % 400;
+    if(rest == 0 && rest != 100 || by400 == 0) {
+        printf("\nThe year %d is leap.", year);
     } else {
-        printf("\nO ano %d nao eh bissexto.", ano);
+        printf("\nThe year %d is not leap.", year);
     }
 
     return 0;

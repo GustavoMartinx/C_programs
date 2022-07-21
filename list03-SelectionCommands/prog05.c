@@ -1,34 +1,36 @@
 #include <stdio.h>
 
 int main() {
-    float n1;
-    float n2;
-    float n3;
+    float s1;
+    float s2;
+    float s3;
 
-    printf("Informe as tres notas obtidas: ");
-    scanf(" %f %f %f", &n1, &n2, &n3);
+    printf("Reporta the three scores obtained: ");
+    scanf(" %f %f %f", &s1, &s2, &s3);
 
-    // Determinação dointervalo da nota de 0 a 10
-    if(n1 >= 0 && n2 >= 0 && n3 >= 0 && n1 <= 10 && n2 <=10 && n3 <=10) {
+    // Determining score range from 0 to 10
+    // Determinação do intervalo da nota de 0 a 10
+    if(s1 >= 0 && s2 >= 0 && s3 >= 0 && s1 <= 10 && s2 <=10 && s3 <=10) {
+        // Average calculation
         // Cálculo da média simples
-        float mediaSimples = (n1 + n2 + n3) / 3;
-        printf(" %.1f", mediaSimples);
+        float average = (s1 + s2 + s3) / 3;
+        printf(" %.1f", average);
 
-        // Conceito A
-        if(mediaSimples >= 8.5) {
-            printf(" Parabens! Voce obteve o Conceito A!");
+        // Concept A
+        if(average >= 8.5) {
+            printf(" Awesome! You obtained the A Concept!");
         } else {
-            // Conceito B
-            if(mediaSimples >= 7.0 && mediaSimples < 8.5) {
-                printf(" Muito Bem! Voce obteve o Conceito B");
+            // Concept B
+            if(average >= 7.0 && average < 8.5) {
+                printf(" Very Good! You obtained the B Concept.");
             } else {
-                // Conceito C
-                if(mediaSimples >= 5.5 && mediaSimples < 7.0) {
-                    printf(" Voce obteve o Conceito C");
+                // Concept C
+                if(average >= 5.5 && average < 7.0) {
+                    printf(" You obtained the C Concept.");
                 } else {
-                    // Conceito F
-                    if(mediaSimples < 5.5) {
-                        printf(" Voce obteve o Conceito F. Busque melhorar na proxima nota.");
+                    // Concept F
+                    if(average < 5.5) {
+                        printf(" You obtained the F Concept. Try to improve in the next note.");
                     }
                 }
             }
