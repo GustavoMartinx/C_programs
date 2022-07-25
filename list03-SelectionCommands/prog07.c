@@ -5,10 +5,11 @@ int main() {
     int y;
     int z;
 
-    printf("Informe 3 valores: ");
+    printf("Enter 3 values: ");
     scanf(" %d %d %d", &x, &y, &z);
-    printf("\nA ordem crescente dos numeros digitados eh: ");
+    printf("\nThe ascending order of the numbers entered is: ");
 
+    // Defining the smallest
     // Definindo o menor
     if(x < y && x < z) {
         printf(" %d", x);
@@ -23,6 +24,7 @@ int main() {
     }
 
 
+    // Defining the median
     // Definindo o mediano
     if((x > z && x < y) || (x > y && x < z)) {
         printf(" %d", x);
@@ -36,7 +38,8 @@ int main() {
         }
     }
 
-    // Definindo qual eh o maior
+    // Defining the biggest
+    // Definindo o maior
     if(x > y && x > z) {
         printf(" %d", x);
     } else {

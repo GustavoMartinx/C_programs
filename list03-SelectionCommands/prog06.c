@@ -6,36 +6,41 @@ int main() {
     float z;
     float w;
 
-    printf("Informe 4 numeros e eu te direi qual eh o maior deles: ");
+    printf("Enter 4 numbers and I'll tell you which is the biggest: ");
     scanf(" %f %f %f %f", &x, &y, &z, &w);
 
+    // if x is the biggest
     // Se o maior for x
     if(x > y && x > z && x > w) {
-        printf("\nO maior numero eh: %.1f", x);
+        printf("\nThe biggest number is: %.1f", x);
     } else {
+        // If y is the biggest
         // Se o maior for y
         if(y > x && y > z && y > w) {
-            printf("\nO maior numero eh: %.1f", y);
+            printf("\nThe biggest number is: %.1f", y);
         } else {
+            // If z is the biggest
             // Se o maior for z
             if(z > x && z > y && z > w) {
-                printf("\nO maior numero eh: %.1f", z);
+                printf("\nThe biggest number is: %.1f", z);
             } else {
+                // If w is the biggest 
                 // Se o maior for w 
                 if(w > x && w > y && w > z) {
-                    printf("\nO maior numero eh: %.1f", w);
+                    printf("\nThe biggest number is: %.1f", w);
                 
                 } else {
 
+                    // If someone of then is equal
                     // Se algum deles for igual
                     if(x == y || x == z || x == w) {
-                    printf("\nVoce digitou o maior valor duas vezes: %.1f", x);
+                    printf("\nYou type the biggest two times: %.1f", x);
                     } else {
                         if(y == z || y == w) {
-                        printf("\nVoce digitou o maior valor duas vezes: %.1f", y);
+                        printf("\nYou type the biggest two times: %.1f", y);
                         } else {
                             if(z == w) {
-                            printf("\nVoce digitou o maior valor duas vezes: %.1f", z);
+                            printf("\nYou type the biggest two times: %.1f", z);
                             }
                         }
                     }
