@@ -8,4 +8,7 @@
 - ### The biggest one (prog 06)
 - ### Sort (prog 07)
 - ### Sum of digits in a number (prog 08)
-- ### (prog 09) <-
+- ### Is or not a letter with ASCII (prog 09)
+- ### It's upper case, if not, change it to it using ASCII (prog 10)
+- ### It's vowel, consoant, number or symbol using ASCII (prog 11)
+- ### Simple Calculator (prog 12)
