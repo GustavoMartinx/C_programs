@@ -2,22 +2,22 @@
 
 int main() {
     char x;
-    printf("Informe um caractere: ");
+    printf("Enter a char: ");
     scanf(" %c", &x);
 
     if(x < 65 || (x >= 91 && x <= 96) || x >= 123) {
-        printf(" %c nao eh uma letra.", x);
+        printf(" %c is not a letter.", x);
     } else {
         if((x >= 65 && x <= 90) || (x >= 97 && x <= 122)) {
-            printf(" %c eh uma letra.", x);
+            printf(" %c is a letter.", x);
         }
 
         if(x >= 65 && x <= 90) {
-            printf("\n %c eh uma letra mauiscula");
+            printf("\n %c is upper case");
         } else {
             if(x >= 97 && x <= 122) {
                 x = x - 32;
-                printf("\nEm maiusculo: %c", x);
+                printf("\nIn upper case: %c", x);
             }
         }
     }

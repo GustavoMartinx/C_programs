@@ -1,41 +1,42 @@
 #include <stdio.h>
 
 int main() {
-    printf("CALCULADORA SIMPLEX\n\n");
+    printf("SIMPLE CALCULATOR\n\n");
 
     int A;
     int B;
     char op;
 
-    printf("\n[Primeiro numero]: ");
+    printf("\n[First number]: ");
     scanf(" %d", &A);
 
-    printf("[Operador]: ");
+    printf("[Operator]: ");
     scanf(" %c", &op);
 
-    printf("[Segundo numero]: ");
+    printf("[Second number]: ");
     scanf(" %d", &B);
 
+    // Operation and Expression/Result
     // Operação em si e Expressão/Resultado
     if(op == '/') {
-        float resultado = A / B;
-        printf(" %d %c %d = %f", A, op, B, resultado);
+        float result = A / B;
+        printf(" %d %c %d = %f", A, op, B, result);
     } else {
         if(op == '*') {
-            float resultado = A * B;
-            printf(" %d %c %d = %f", A, op, B, resultado);
+            float result = A * B;
+            printf(" %d %c %d = %f", A, op, B, result);
         } else {
             if(op == '+') {
-                float resultado = A + B;
-                printf(" %d %c %d = %f", A, op, B, resultado);
+                float result = A + B;
+                printf(" %d %c %d = %f", A, op, B, result);
             } else {
                 if(op == '-') {
-                    float resultado = A - B;
-                    printf(" %d %c %d = %f", A, op, B, resultado);
+                    float result = A - B;
+                    printf(" %d %c %d = %f", A, op, B, result);
                 } else {
                     if(op == '%') {
-                        float resultado = A % B;
-                        printf(" %d %c %d = %f", A, op, B, resultado);
+                        float result = A % B;
+                        printf(" %d %c %d = %f", A, op, B, result);
                     }
                 }
             }

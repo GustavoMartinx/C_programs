@@ -2,13 +2,13 @@
 
 int main() {
     char x;
-    printf("Informe um caractere: ");
+    printf("Enter an char: ");
     scanf(" %c", &x);
 
     if((x >= 65 && x <= 90) || (x >= 97 && x <= 122)) {
-        printf(" %c eh uma letra.", x);
+        printf(" %c is a letter.", x);
     } else {
-        printf(" %c nao eh uma letra.", x);
+        printf(" %c is not a letter.", x);
     }
 
     return 0;
