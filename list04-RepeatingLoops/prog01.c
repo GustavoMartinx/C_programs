@@ -2,11 +2,11 @@
 
 int main() {
     int n;
-    printf("Informe o numero de linhas: ");
+    printf("Enter a number of lines: ");
     scanf(" %d", &n);
 
     for(int i = 0; i < n; i++) {
-        printf("Linha %d\n", i+1);
+        printf("Line %d\n", i+1);
     }
 
     return 0;

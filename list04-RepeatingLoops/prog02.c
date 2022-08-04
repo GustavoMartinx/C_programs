@@ -3,11 +3,11 @@
 int main() {
     int n;
 
-    printf("Informe um numero de linhas: ");
+    printf("Enter a number of lines: ");
     scanf(" %d", &n);
 
     for(int i = 0; i < n; n--) {
-        printf("Linha %d\n", i+n);
+        printf("Line %d\n", i+n);
     }
 
     return 0;
