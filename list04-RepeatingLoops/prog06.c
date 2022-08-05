@@ -3,7 +3,7 @@
 int main() {
     
     int n;
-    printf("SOMATORIO DE UM NUMERO: ");
+    printf("Summation of a number: ");
     scanf("%d", &n);
 
     int sum = 0;
