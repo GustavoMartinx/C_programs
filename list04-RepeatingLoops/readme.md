@@ -4,3 +4,5 @@
 - ### Same as before, but decreasing (prog 02)
 - ### Multiplication table (prog 03)
 - ### Show the odd number entered (prog 04)
+- ### Char of ASCII table (prog 05)
+- ### Summation (prog 06)
