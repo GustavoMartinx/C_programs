@@ -6,3 +6,5 @@
 - ### Show the odd number entered (prog 04)
 - ### Char of ASCII table (prog 05)
 - ### Summation (prog 06)
+- ### Factorial (productive) (prog 07)
+- ### Average (prog 08)
