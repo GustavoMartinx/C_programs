@@ -4,7 +4,7 @@ int main() {
 
     int num;
     
-    printf("Informe um numero natural: ");
+    printf("Enter a natural number: ");
     scanf(" %d", &num);
 
     int prod = 1;

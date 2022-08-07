@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Informe os numeros:\n");
+    printf("Enter the numbers:\n");
 
     int num = 1;
     int sum = 0;
@@ -14,10 +14,10 @@ int main() {
         i++;
     }
 
-    float media = sum / (float)i;
+    float average = sum / (float)i;
 
-    printf("Soma: %d\n", sum);
-    printf("Media: %.2f", media);
+    printf("Sum: %d\n", sum);
+    printf("Average: %.2f", average);
 
     return 0;
 }
