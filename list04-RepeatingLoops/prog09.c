@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Informe alguns valores (0 para sair): \n");
+    printf("Enter some values (0 to getout): \n");
 
     int n = 1;
     int min = 99999;
@@ -19,8 +19,8 @@ int main() {
         }
     }
 
-    printf("\nO maior numero digitado foi: %d", max);
-    printf("\nE o menor foi: %d", min);
+    printf("\nThe biggest number typed was: %d", max);
+    printf("\nAnd the smallest: %d", min);
 
     return 0;
 }
