@@ -8,3 +8,5 @@
 - ### Summation (prog 06)
 - ### Factorial (productive) (prog 07)
 - ### Average (prog 08)
+- ### The biggest and the smallest typed in runtime (prog 09)
+- ### Digits used to whrite a number (prog 10)
