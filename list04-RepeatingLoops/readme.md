@@ -10,3 +10,5 @@
 - ### Average (prog 08)
 - ### The biggest and the smallest typed in runtime (prog 09)
 - ### Digits used to whrite a number (prog 10)
+- ### Squared (prog 11)
+- ### Prime number (prog 12)
